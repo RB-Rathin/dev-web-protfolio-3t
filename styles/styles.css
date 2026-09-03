@@ -12,16 +12,25 @@ body{
  max-width: 1260px;
  margin: 0 auto;
 }
+.section{
+    background: #dfa67d3e;
+    margin-bottom: 100px;
+}
+h1,h2,h3,h4{
+    color: black;
+}
 .pColor{
     color: #FD6E0A;
 }
 .nav-container{
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .nav-container p{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     color: black;
 }
@@ -39,7 +48,7 @@ body{
 .nav-container ul li a{
     text-decoration: none;
 }
-.nav-container ul li button{
+.pButton{
     background: #FD6E0A;
     border: none;
     border-radius: 10px;
@@ -48,4 +57,64 @@ body{
     font-weight: 600;
     color: white;
     cursor: pointer;
+}
+/* Hero section */
+.hero-container{
+    display: flex;
+    width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+
+}
+.about-part{
+    width: 50%;
+}
+.about-part h1{
+    font-size: 50px;
+}
+.contact-btn{
+    border: 1px solid #FD6E0A;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FD6E0A;
+    cursor: pointer;
+}
+.image-part{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container img{
+    width: 80%;
+}
+/* About section */
+.about-info{
+    text-align: center;
+    padding: 50px 0px;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 0px;
+    line-height: 50px;
+    
+}
+.contact-info div{
+     background: #efe5dea2;
+}
+/* technologys */
+.technologys{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.technologys div{
+    border: 2px solid #FD6E0A;
+    border-radius: 10px;
+    padding: 10px;
 }
